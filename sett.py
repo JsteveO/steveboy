@@ -4,7 +4,7 @@ import os
 sets = None
 
 
-token = 'Steveboy'
+token = '#token_name'
 
 whatsapp_token = '#token_Whatsapp'
 
