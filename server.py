@@ -52,18 +52,16 @@ def descargar_csv():
       
 @app.route('/bienvenido', methods=['GET'])
 def  bienvenido():
-    #'<h1 style="text-align: center; color: red;">Hola mundo desde glitch, ya no me quiero morir este es mi personal Project</h1>'
-    #filtro = session.get('data', None)
     
     if sett.sets is None:
         return '''     
         <html>
             <body>
                 <h1 style="text-align: center; color: blue;">
-                    Hella world desde mi Personal Project, 😎 .
+                    Hello world, desde mi Personal Project en Glitch, 😎 .
                 </h1>
                 <div style="text-align: center;">
-                    <img src="https://media.tenor.com/rFe-MW03t1EAAAAC/unicorn-rainbow.gif" alt="La burla" style="display: block; margin: auto;">
+                    <img src="https://media.tenor.com/rFe-MW03t1EAAAAC/unicorn-rainbow.gif" alt="image1" style="display: block; margin: auto;">
                 </div>
             </body>
         </html>
